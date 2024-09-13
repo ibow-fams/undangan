@@ -402,7 +402,7 @@ body {
 }
 
 /* Media Query untuk viewport 393px x 732px */
-@media (max-width: 393px) {
+@media (max-width: 375px) {
   html {
     font-size: 45%;
   }
