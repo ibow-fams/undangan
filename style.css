@@ -63,7 +63,7 @@ body {
 
 .mynavbar {
   background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(2px);
+/*   backdrop-filter: blur(2px); */
 }
 
 .mynavbar .offcanvas {
@@ -398,6 +398,21 @@ body {
   }
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+}
+
+/* Media Query untuk viewport 393px x 732px */
+@media (max-width: 403px) {
+  html {
+    font-size: 45%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 25px; /* Atur padding sesuai kebutuhan Anda */
+    margin: 1.5px; /* Atur margin sesuai kebutuhan Anda */
+  }
+  .mynavbar .nav-link {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 
