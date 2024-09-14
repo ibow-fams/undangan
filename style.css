@@ -404,24 +404,38 @@ body {
 /* Media Query untuk viewport 393px x 732px */
 @media (max-width: 403px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
   .simply-countdown > .simply-section {
     padding: 25px; /* Atur padding sesuai kebutuhan Anda */
     margin: 1.5px; /* Atur margin sesuai kebutuhan Anda */
   }
   .mynavbar .nav-link {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
   }
   .mynavbar {
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: none;
-}
-   .mynavbar .offcanvas {
-    height: 100vh;
-    width: 80%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: none;
+  }
+  .mynavbar .offcanvas {
+    height: 100%;
+    width: 70%;
+  }
+  .info {
+    background-color: var(--bg);
+    color: white;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    min-height: 100vh;
+  }
+  .story,
+  .gallery {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    min-height: 100vh;
   }
 }
+
 
 
